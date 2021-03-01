@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main1.css">
+    <title>Page Title</title>
+</head>
+
+<body>
+    <div class="jumbotron text-center">
+        <h1 class="header display-3">Solve the Cryptograph:</h1>
+        <h2 class="instruction">Press any key A-Z to try a letter.</h2>
+        <div class="lead">
+            <p>You win if you solve the puzzle, but the game ends after 5 misses.</p>
+            <div class="totals">
+                <div class="totalWins">Total Wins: <span class="totalWinCount"></span></div>
+                <div class="totalLosses">Total Losses: <span class="totalLossCount"></span></div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container text-center">
+        <div class="timerBox">0:<span class="sec0">0</span><span class="timer">30</span></div>
+
+        <div class="missBox">
+            <div class="misses">
+                <div class="missX">X</div>
+                <div class="missX">X</div>
+                <div class="missX">X</div>
+                <div class="missX">X</div>
+                <div class="missX">X</div>
+            </div>
+        </div>
+
+        <div class="congrats lead">
+            <p>Congratulations, you solved it!</p><button class="btn btn-lg next">Next</button>
+        </div>
+        <div class="youLose lead">
+            <p>Sorry, better luck next time.</p><button class="btn btn-lg tryAgain">Try Again</button>
+        </div>
+
+        <div class="message"></div>
+
+        <div class="duplicateBox">
+            <p>You already tried <span class="dupKey"></span></p>
+        </div>
+
+        <div class="invalidBox">
+            <p>That is not a valid option</p>
+        </div>
+
+
+    </div>
+
+    <div class="form container col-8 offset-2">
+        <div class="form-group lead">
+            <p>You have solved three <span class="more">more</span> puzzles. You can continue playing or insert your
+                own message into the game. Messages are randomly selected so it may not be the next to appear.</p>
+
+            <button class="btn btn-lg noThanks">No thanks, back to the game.</button>
+        </div>
+
+        <p class="or">OR</p>
+
+        <div class="form-group lead form2">
+            <label class="form-label" for="userPuzzle">Enter message to encrypt:</label>
+            <input id="userPuzzle" class="form-control" type="text">
+        </div>
+
+        <div class="numbersNotAllowed"></div>
+        <button class="btn btn-lg userSubmitBtn">Submit</button>
+
+    </div>
+
+    <div class="submissionDiv container col-8 offset-2 lead">
+        <p>Thank you for your submission</p>
+        <button class="btn btn-lg anotherQuestBtn">Submit Another Question</button>
+        <button class="btn btn-lg continueBtn">Continue</button>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

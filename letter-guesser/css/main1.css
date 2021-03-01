@@ -1,0 +1,108 @@
+.duplicateBox,
+.invalidBox,
+.congrats,
+.youLose,
+.form,
+.submissionDiv,
+.more,
+.min0,
+.sec0 {
+    display: none;
+}
+
+.duplicateBox,
+.invalidBox {
+    color: crimson;
+}
+
+.jumbotron {
+    background: slategray;
+    padding: 2rem 1rem;
+}
+
+.timerBox {
+    font-size: 2.5em;
+    color: limegreen;
+    margin-bottom: 20px;
+}
+
+.message {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.wordDiv {
+    display: flex;
+    margin: 0 1em 1em;
+}
+
+.letterDiv {
+    font-size: 2.5em;
+    height: 40px;
+    width: 25px;
+}
+
+.letterWrap {
+    margin: 0.3em;
+}
+
+.hiddenLetter {
+    display: none;
+    color: limegreen;
+}
+
+.hiddenContainer {
+    height: 40px;
+}
+
+.misses {
+    display: flex;
+    justify-content: center;
+}
+
+.missBox {
+    margin-bottom: 30px;
+}
+
+.missX {
+    border: 1px solid red;
+    border-radius: 5px;
+    color: red;
+    font-size: 2em;
+    height: 50px;
+    margin: 0 0.1em;
+    opacity: 0.25;
+    width: 50px;
+}
+
+.noThanks, .userSubmitBtn {
+    width: 100%;
+}
+
+.or {
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
+
+.submissionDiv {
+    text-align: center;
+}
+
+small {
+    color: crimson;
+}
+
+.btn {
+    background: slategray;
+    color: #fff;
+}
+
+.btn:hover {
+    background: #bbb;
+    color: #000;
+}
+
+
+
