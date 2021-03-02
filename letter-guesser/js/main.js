@@ -2,7 +2,7 @@ let letters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", 
 let exceptReg = /[^\w]/;
 let decoder = {};
 
-let messageArr = [`It puts the lotion on its skin...`, `Hello, Clarice.`, `Craptop`, "It's made of people!", "All work and no play makes Johnny a dull boy", `Books are your friends.`];
+let messageArr = [`It puts the lotion on its skin...`, `Hello, Clarice.`, "It's made of people!", "All work and no play makes Johnny a dull boy", `Books are your friends.`];
 
 let ri = 0;
 
